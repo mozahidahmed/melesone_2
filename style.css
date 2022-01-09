@@ -1,0 +1,67 @@
+
+/*------table css start-------*/
+table{
+border-collapse: collapse;
+
+}
+
+
+th,td{
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+
+
+/*------table css end-------*/
+
+
+
+
+/*------nav css start-------*/
+nav  li{
+    list-style: none;
+    padding: 10px;
+}
+nav li a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+nav > ul{
+
+display: flex;
+
+}
+
+nav li:hover{
+
+background-color: blue;
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    background-color: chartreuse;
+   margin-top: 20px;
+    padding: 10px;
+
+}
+
+nav > ul > li:hover > ul{
+
+display: block;
+
+}
+
+/*------nav and dropdown end--*/
+
+
+
+
+
+
+
+
+
+
